@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Project (Amazon)</title>
+    <link rel="shortcut icon" type="x-icon" href="Pics&Icons\icons8-amazon-48.png" class="Head_Icon">
+    <link rel="stylesheet" href="Css/body.css">
+    <link rel="stylesheet" href="Css/Amazon_Header.css">
+    <link rel="stylesheet" href="Css/Amazon_Zmedia_quiries.css">
+    <link rel="stylesheet" href="Css/Checkout_body.css">
+    <link rel="stylesheet" href="Css/place_order.css">
+
+</head>
+<body>
+
+
+<!--     ***************** header **************     -->
+
+
+<div class="hori_header">
+    <div class="first_head">
+        <div class="div_amazonLogo">
+            <a href="index.html">
+                <img class="amazonPic" src="Pics&Icons\header1.png">
+                <img class="amazonPic_Mobile" src="Pics&Icons/amazon-mobile-logo-white.png">
+            </a>
+        </div>
+    </div>
+
+    <div class="div_search">
+        <input class="search-bar js-search" type="text" placeholder="Search">
+        <div class="search_button js-srch_button"><img class="searchPic" src="Pics&Icons\header2.png"></div>
+    </div>
+
+    <div class="div_Cart">
+        <a class="TextRetern" href="Orders.html">
+            <div class="div_Returns">Returns</div>
+            <div class="andOrder">& Orders</div>
+        </a>
+        <a style="text-decoration: none;" href="Checkout.html">
+            <div class="cartdiv">
+                <div class="div_shopingPic">
+                    <img class="shopingPic" src="Pics&Icons\header3.png">
+                    <div class="numCart js-numcart"></div>
+                </div>
+                <div class="textCart">
+                    Cart
+                </div>
+            </div>
+        </a>
+        <div class="hum_div">
+            <img class="hum_pic" src="Pics&Icons/hamburger-menu.png">
+            <div class="nav">
+                <div class="hum_menu">
+                    <a style="text-decoration: none; color: white; font-weight: bold;" href="Orders.html" class="menu_item">
+                        <div>Returns & Orders</div>
+                    </a>
+                    <a style="text-decoration: none; color: white; font-weight: bold;" href="Checkout.html" class="menu_item">
+                        <div>
+                            Cart (<span class="numCart2 js-numcart3"></span>)
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--  ******* Body ********   -->
+<div style="max-width: 830px; padding: 40px 25px; margin-left: auto; margin-right: auto;">
+    <div style="font-size: 20px; font-weight: bold;margin-bottom: 20px;">Your Previous Orders</div>
+    <div style="display: flex;flex-direction: column;">
+        <div class="total">
+            <div><div style="font-weight: bold;">Order Placed:</div><div>March 1</div></div>
+            <div style="width: 80px;"><div style="font-weight: bold;">Total:</div><div>$10.90</div></div>
+            <div class="id"><div style="font-weight: bold;">Order ID:</div><div>80f02d8d-432b-d6e7-9495-e49121410331</div></div>
+        </div>
+        <div style="display: flex; align-items: center; padding: 30px 20px; border:solid; border-top:none; border-width:1px;border-color:rgb(213, 217, 217);border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;">
+            <div><img style="height: 130px; margin-right: 30px;" src="Pics&Icons/pic1.jpg"></div>
+            <div>
+                <div style="font-weight: bold; margin-bottom: 8px;">Blackpink Printed Logo T-shirt</div>
+                <div style="margin-bottom: 4px;">Arrived on: March 7 2023</div>
+                <div style="margin-bottom: 6px;">Quantity: 1</div>
+                <button class="button_buyagain js-button"><img style="height: 25px; margin-right: 8px;" src="Pics&Icons/buy-again.png">Buy it again</button>
+            </div>
+            <div></div>
+        </div>
+    </div>
+</div>
+
+<script type="module" src="Scripts/Orders.js"></script>
+
+</body>
+</html>
