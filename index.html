@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Project (Amazon)</title>
+    <link rel="shortcut icon" type="x-icon" href="Pics&Icons\icons8-amazon-48.png" class="Head_Icon">
+    <link rel="stylesheet" href="Css/body.css">
+    <link rel="stylesheet" href="Css/Amazon_Grid.css">
+    <link rel="stylesheet" href="Css/Amazon_Header.css">
+    <link rel="stylesheet" href="Css/Amazon_Zmedia_quiries.css">
+</head>
+<body>
+
+
+<!--     ***************** header **************     -->
+
+
+<div class="hori_header">
+    <div class="first_head">
+        <div class="div_amazonLogo">
+            <a href="index.html">
+                <img class="amazonPic" src="Pics&Icons\header1.png">
+                <img class="amazonPic_Mobile" src="Pics&Icons/amazon-mobile-logo-white.png">
+            </a>
+        </div>
+    </div>
+
+    <div class="div_search">
+        <input class="search-bar js-search" type="text" placeholder="Search">
+        <div class="search_button js-srch_button"><img class="searchPic" src="Pics&Icons\header2.png"></div>
+    </div>
+
+    <div class="div_Cart">
+        <a class="TextRetern" href="Orders.html">
+            <div class="div_Returns">Returns</div>
+            <div class="andOrder">& Orders</div>
+        </a>
+        <a style="text-decoration: none;" href="Checkout.html">
+            <div class="cartdiv">
+                <div class="div_shopingPic">
+                    <img class="shopingPic" src="Pics&Icons\header3.png">
+                    <div class="numCart js-numcart"></div>
+                </div>
+                <div class="textCart">
+                    Cart
+                </div>
+            </div>
+        </a>
+        <div class="hum_div">
+            <img class="hum_pic" src="Pics&Icons/hamburger-menu.png">
+            <div class="nav">
+                <div class="hum_menu">
+                    <a style="text-decoration: none; color: white; font-weight: bold;" href="Orders.html" class="menu_item">
+                        <div>Returns & Orders</div>
+                    </a>
+                    <a style="text-decoration: none; color: white; font-weight: bold;" href="Checkout.html" class="menu_item">
+                        <div>
+                            Cart (<span class="numCart2 js-numcart2"></span>)
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--  ******* Body ********   -->
+
+
+<div class="Gridview js-Gridview"></div>
+
+<script type="module" src="Scripts/Amazon.js"></script>
+
+</body>
+</html>

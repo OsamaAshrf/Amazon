@@ -1,0 +1,45 @@
+/* Checkout Page Header*/
+.checkout_header{
+    position: fixed;
+    top:0;
+    left:0; right:0;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: center;
+}
+.Header_container{
+    width: 100%;
+    max-width: 1100px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+.firstSec{
+    width: 150px;
+}
+.amazonPic{
+    height: 30px;
+    margin-top: 12px; 
+}
+/* => @media */
+.amazonPic_Mobile{
+    height: 35px;
+    display: none;
+}
+.middleSec_Checkout{
+    font-size: 25px;
+    font-weight: bold;
+    text-wrap: nowrap;
+}
+.lastSec{
+    width: 150px;
+    text-align: end;
+}
+.head_Checkout_Cartnum{
+    color: rgb(0, 113, 133);
+}
+

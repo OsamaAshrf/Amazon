@@ -1,0 +1,51 @@
+
+@media (max-width:1075px){
+    .middleSec_Checkout{
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .checkoutCont{
+        max-width: 520px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 140px;
+        margin-bottom: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .secPart{
+        display: flex;
+        flex-direction:column-reverse
+    }
+    .Cart_contents{
+        width:100%;
+    }
+    .div_product_cont{
+        display: flex;
+        flex-direction: column;
+    }
+    .div_product_leftsec{
+        display: flex;
+        width:unset;
+        margin-bottom: 20px;
+    }
+    .div_Prize{
+        width: unset;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width:575px){
+    .amazonPic{
+        display: none;
+    }
+    .amazonPic_Mobile{
+        display:block;
+    }
+    .prod_img{
+        width: unset;
+    }
+    .product_id_1st{
+        width: unset;
+    }
+}

@@ -1,0 +1,43 @@
+@media ( max-width: 1300px){
+    .Gridview{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    }
+}
+@media ( max-width: 1000px){
+    .Gridview{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+@media ( max-width: 800px){
+    .Gridview{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .first_head,.div_Cart{
+        width: unset;
+    }
+}
+@media ( max-width: 575px){
+    .Gridview{
+        grid-template-columns: 1fr 1fr;
+    }
+    .amazonPic{
+        display: none;
+    }
+    .amazonPic_Mobile{
+        display:block;
+    }
+
+    .div_Cart{
+        width: unset;
+    }
+    .TextRetern{
+        display: none;
+
+    }
+    .cartdiv{
+        display: none;
+    }
+    .hum_div{
+        display: block;
+    }
+}

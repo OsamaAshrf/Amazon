@@ -1,0 +1,182 @@
+/* Amazon Page Header*/
+.hori_header{
+    position: fixed;
+    top:0;
+    left:0; right:0;
+    height: 60px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 5;
+}
+/*First section*/
+.first_head{
+    width:180px;
+    display: flex;
+}
+.div_amazonLogo{
+    padding: 6px;
+    border: solid;
+    border-radius: 1px;
+    border-width: 1px;
+}
+.amazonPic{
+    height: 31px;
+    margin-top: 5px; 
+}
+/* => @media */
+.amazonPic_Mobile{
+    height: 35px;
+    display: none;
+}
+
+/*Middle section*/
+.div_search{
+    padding-right: 10px;
+    padding-left: 10px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-bar{
+    font-size: 16px;
+    flex: 1;
+    padding-left: 14px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    height: 34px;
+    border: none;
+    border-radius: 5px;
+    max-width: 830px;
+    width: 0px;
+}
+
+.search_button{
+    height: 40px;
+    width: 46px;
+    background-color: rgb(243, 184, 74);
+    margin-left: -46px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px; 
+    cursor: pointer; 
+}
+.searchPic{
+    height: 22px;
+    margin: 10px 12px;
+}
+
+/*Last section*/
+.div_Cart{
+    width: 180px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    z-index: 4;
+}
+.TextRetern{
+    padding: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid;
+    border-radius: 2px;
+    border-width: 1px;
+    text-decoration: none; border-color: black;
+}
+.div_Returns{
+    color: white;
+    font-size: 13px; line-height: 15px;
+}
+.andOrder{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-wrap: nowrap;
+}
+.cartdiv{
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    border: solid;
+    border-radius: 2px;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+}
+.div_shopingPic{
+    position: relative;
+}
+.shopingPic{
+    height: 32px;
+}
+.numCart{
+    position: absolute;
+    top:-4px;
+    left:18px;
+    color: rgb(255, 95, 36);
+    font-size: 15px;
+    text-align: center;
+    width: 17px;
+}
+.textCart{
+    color: white;
+    margin-top: 8px;
+    font-size: 15px;
+    font-weight: bold;
+}
+/* => @media */
+.hum_div{
+    padding: 0px;
+    display: none;
+}
+.hum_pic{
+    cursor: pointer;
+}
+.nav{
+    position: fixed;
+    top:60px;
+    left:0; right:0;
+    background-color: aquamarine;
+    height: 0;
+    transition: 0.25s;
+}
+.nav_open{
+    height: 90px; 
+}
+.hum_menu{
+    background: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    transition: 0.25s;
+    text-align: center;
+    overflow: hidden;
+    list-style-type: none;
+    text-wrap: nowrap;
+    height: 100%;
+}
+
+.menu_item{
+    padding: 12px;
+    width: 100%;
+}
+.menu_item:hover{
+    background-color: rgb(32, 32, 32);
+    cursor: pointer;
+}
+.numCart2{
+    color: rgb(255, 95, 36);
+    font-size: 15px;
+    text-align: center;
+    width: 17px;
+}
+
+/*Hover*/
+.div_amazonLogo:hover,.TextRetern:hover,.cartdiv:hover{
+    border: solid;
+    border-radius: 2px;
+    border-width: 1px;
+    border-color: white;
+    cursor: pointer;
+}

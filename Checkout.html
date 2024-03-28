@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="shortcut icon" type="x-icon" href="Pics&Icons\icons8-amazon-48.png" class="Head_Icon">
+    <link rel="stylesheet" href="Css/body.css">
+    <link rel="stylesheet" href="Css/Checkout_body.css">
+    <link rel="stylesheet" href="Css/checkout_Head.css">
+    <link rel="stylesheet" href="Css/checkout_Zmedia.css">
+</head>
+<body>
+<!-- header -->
+<div class="checkout_header">
+    <div class="Header_container">
+        <div class="firstSec">
+            <a class="firstSec_amazonLogo" href="index.html">
+                <img class="amazonPic" src="Pics&Icons/amazon-logo.png">
+                <img class="amazonPic_Mobile" src="Pics&Icons/amazon-mobile-log.jpg">
+            </a>
+        </div>
+        <div>
+            <div class="middleSec_Checkout">
+                Checkout (<span class="head_Checkout_Cartnum"><span class="js-Cart_Head"></span> items</span>)
+            </div>
+        </div>
+        <div class="lastSec">
+            <div class="lastSec_iconLock">
+                <img class="checkout_lock_pic" src="Pics&Icons/checkout-lock-icon.png">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- body -->
+<div class="checkoutCont js-checkoutCont">
+    <p class="Review_ur_order">Review your order</p>
+    <div class="secPart">
+        <div style="display: none;" class="js-empty_cart">
+            <div style="text-wrap: nowrap; margin-bottom: 7px;">Your cart is empty.</div>
+            <a href="index.html">
+            <button class="js-view_product view_button">View products</button>
+            </a>
+        </div>
+        <div class="Cart_contents">
+            <!---->
+        </div>
+        <div class="div_Prize js-div_prize">
+            <div class="div_prize_1stDiv">
+                Order Summary
+            </div>
+            <div class="div_prize_2ndDiv">
+                <div class="div_prize_2nddiv_text">
+                    <div>Item (<span class="js-totquant"></span>):</div>
+                    <div>Shipping & handling:</div>
+                </div>
+                <div class="div_prize_2nddiv_prize1">
+                    <div class="js-totprize"></div>
+                    <div class="js-totshiping"></div>
+                </div>
+            </div>
+            <div class="div_prize_3stDiv">
+                <div class="div_prize_3stDiv_text">
+                    <div>Total before tax:</div>
+                    <div>Estimated tax (10%):</div>
+                </div>
+                <div class="div_prize_3rddiv_prize1">
+                    <div class="js-tot_bef_tax"></div>
+                    <div class="js-estimat_tax"></div>
+                </div>
+            </div>
+            <div class="div_prize_4thDiv">
+                <div class="div_prize_4thDiv_1stelem">
+                    <div>Order total</div>
+                    <div class="js-Order_tot"></div>
+                </div>
+                <div class="div_prize_4thDiv_2ndelem">
+                    <div>Use PayPal</div>
+                    <input type="checkbox" class="js-paypal-toggle">
+                </div>
+                <div style="display: none;" class="js-pay">
+                    <div class="Payment js-payment">
+                        <button class="paypal js-paypal" >Pay<span class="Pal">Pal</span></button>
+                        <button class="debit js-debit">
+                            
+                            Debit or Credit Card
+                        </button>
+                    </div>
+                    <div class="dept-option js-depit_option">
+                        <form style="display: flex; flex-direction: column; margin-bottom: 14px; margin-top: 20px;">
+                            <div style="font-size: 22px;  display: flex; justify-content: end; margin-bottom: 10px; color: gray;" class="js-close"><span style=" cursor: pointer;">X</span></div>
+                            <input type="search" class="debt_box" placeholder="Card number">
+                            <div style="display: flex;">
+                                <input type="search" class="debt_box" placeholder="Expires" style="width: 100%; margin-right: 5px;">
+                                <input type="search" class="debt_box" placeholder="CSC" style="width:100%">
+                            </div>
+                            <div style="font-size: 16px; margin-bottom: 14px; margin-top: 14px;">
+                                Billing address
+                                <img>
+                            </div>
+                            <div style="display: flex;">
+                                <input type="search" class="debt_box" placeholder="First name" style="width: 100%; margin-right: 5px;">
+                                <input type="search" class="debt_box" placeholder="Last name"  style="width: 100%;">
+                            </div>
+                            <input type="search" class="debt_box" placeholder="Street address">
+                            <input type="search" class="debt_box" placeholder="Apt., ste., bldg.">
+                            <input type="search" class="debt_box" placeholder="City">
+                            <input type="search" class="debt_box" placeholder="State">
+                            <input type="search" class="debt_box" placeholder="ZIP code">
+                            <input type="search" class="debt_box" placeholder="Mobile">
+                            <input type="search" class="debt_box" placeholder="Email">
+                            <div style="margin-bottom: 8px; display: flex; align-items: center;">
+                                <input type="checkbox" style="height: 22px; width: 22px; margin-right: 8px;"><span style="font-size: 14px; color: rgb(54, 54, 54);">Ship to billing address</span>
+                            </div>
+                            <div style="margin-bottom: 16px; font-size: 12px; color: gray;">
+                                By continuing, you confirm you're 18 years old.
+                            </div>
+                            <button class="pay_now js-payNow">Pay Now</button>
+                        </form>
+                    </div>
+                    <div class="powerdBy">
+                        <div class="stWord">Powered by </div>
+                        <div class="paypal2">Pay<span class="Pal">Pal</div>
+                    </div>
+                </div>
+                <a style="text-decoration: none;" class="div_prize_4thDiv_3rdelem js-place" href="Orders.html">
+                    <button class="PlaceurOrder js-PlaceurOrder">Place your order</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="module" src="Scripts/Checkout.js"></script>
+
+</body>
+</html>
